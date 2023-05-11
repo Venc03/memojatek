@@ -1,0 +1,30 @@
+.gamecontainer{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    background-image: linear-gradient(to right, rgb(226, 195, 57) , rgb(25, 218, 137));
+    flex-wrap: wrap;
+    border: 3px solid black;
+    border-radius: 2%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+img{
+    width: 250px;
+    border: 1px;
+    border-radius: 15%;
+}
+
+.kartya{
+    border: 3px solid black;
+    border-radius: 15%;
+    padding: 5px;
+    margin: 5px;
+}
